@@ -2,7 +2,7 @@
   width: 80vw;
   margin: 4rem auto;
   max-width: 70em;
-  padding: 10rem;
+  padding: 0rem;
   background: var(--mainWhite);
 }
 
@@ -23,11 +23,15 @@
 .info {
   text-align: center;
 }
+
+.h2 {
+  font-size: 1em;
+}
 .info h1 {
   letter-spacing: 5px;
   margin-bottom: 0.5rem;
   text-transform: capitalize;
-  font-size: 48px;
+  font-size: 37px;
 }
 .info h4 {
   letter-spacing: 5px;
@@ -46,7 +50,11 @@
 }
 .content p {
   line-height: 1.5;
-  margin-bottom: 1rem;
-  font-family: 'Baloo Da 2', cursive;
+  margin-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
+  margin: 0rem 0rem 0px 0rem;
+  letter-spacing: 2px;
+  padding: 1rem 1rem 0 1rem;
 }
+
 
