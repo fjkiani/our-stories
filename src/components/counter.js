@@ -4,7 +4,7 @@ const counter = () => {
   const [count, setCount] = useState(0)
   return (
     <div className="counter">
-      <h3>Show support</h3>
+      <h3>Share this</h3>
       <h3>likes {count}</h3>
       <button onClick={() => setCount(count + 1)}>support level</button>
     </div>
