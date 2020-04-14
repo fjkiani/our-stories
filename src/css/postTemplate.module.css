@@ -49,12 +49,15 @@
   text-align: center;
 }
 .content p {
-  line-height: 1.5;
+  line-height: 2.5;
   margin-bottom: 2rem;
   font-family: 'Raleway', sans-serif;
   margin: 0rem 0rem 0px 0rem;
   letter-spacing: 2px;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 2rem 3rem 2rem;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 
