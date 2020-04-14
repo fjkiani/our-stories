@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+
+}
+a {
+  color: red;
+}
+
 .img {
   height: 1em;
 }
