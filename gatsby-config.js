@@ -1,15 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Universal Blog Website`,
+    keywords: `blog, blog by fahad, fahad, fahad kiani`,
     author: {
       name: `Fahad Kiani`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+        },
+    description: `A blog that talks about wellness, hacks and how to achieve`,
+    siteUrl: `https://our-stories.us/`,
   },
   plugins: [
     {

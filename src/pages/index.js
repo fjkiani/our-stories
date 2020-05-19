@@ -18,7 +18,7 @@ const getPosts = graphql`
                 }
               }
             }
-            date(formatString: "MMMM Do, YYYY")
+            date(formatString: "MMMM, Do, YYYY")
             author
           }
           excerpt

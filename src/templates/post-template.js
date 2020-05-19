@@ -40,7 +40,7 @@ export const query = graphql`
     mdx(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
         title
-        date(formatString: "MMMM Do, YYYY")
+        date(formatString: "MMMM, Do, YYYY")
         author
         image {
           childImageSharp {
