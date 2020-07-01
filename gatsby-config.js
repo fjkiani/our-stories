@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Universal Blog Website`,
-    keywords: `blog, blog by fahad, fahad, fahad kiani`,
+    keywords: `Fjkiani, blog by fahad, fahad, fahad kiani, wellness blogs, tech blogs`,
     description: `A blog website that shares stories from people all around the world`,
     titleTemplate:`%s | Our Blog`,
     url:  `https://our-stories.us/`,
