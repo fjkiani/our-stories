@@ -36,7 +36,7 @@ export default () => {
     <Layout>
       {/* <h1>home page</h1> */}
       {/* <Link to="/post/">Post Page</Link> */}
-      <SEO title="Home"/>
+      <SEO title="Home" />
       <PostList posts={posts} />
     </Layout>
   )
