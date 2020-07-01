@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import { graphql, useStaticQuery } from "gatsby"
 import PostList from "../components/PostList"
+import SEO from "../components/SEO"
 const getPosts = graphql`
   {
     allMdx(sort: { fields: frontmatter___date, order: DESC }) {
@@ -35,6 +36,7 @@ export default () => {
     <Layout>
       {/* <h1>home page</h1> */}
       {/* <Link to="/post/">Post Page</Link> */}
+      <SEO title="Home"/>
       <PostList posts={posts} />
     </Layout>
   )

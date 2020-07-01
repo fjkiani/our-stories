@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Universal Blog Website`,
     keywords: `blog, blog by fahad, fahad, fahad kiani`,
-    author: {
-      name: `Fahad Kiani`,
-        },
-    description: `A blog that talks about wellness, hacks and how to achieve`,
-    siteUrl: `https://our-stories.us/`,
+    description: `A blog website that shares stories from people all around the world`,
+    titleTemplate:`%s | Our Blog`,
+    url:  `https://our-stories.us/`,
+    image: `main.png`,
+    // twitterUsername: `@fjkiani1`,
   },
   plugins: [
     {
