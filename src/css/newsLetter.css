@@ -31,7 +31,7 @@
     display: block;
     width: 20rem;
   }
-  
+
   .submit-btn {
     font-weight: 400;
     text-transform: capitalize;
@@ -41,4 +41,12 @@
   .submit-btn:hover {
     border-color: var(--clr-primary-8);
     border-right: var(--clr-primary-8);
+  }
+
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }

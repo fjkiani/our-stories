@@ -12,7 +12,7 @@ export default function NavBar() {
        <Nav className={styles.nav} variant="pills" defaultActiveKey="/home">
          <Link to ="/subscribe">Subscribe</Link>
          <Link to ="/">Read</Link>
-         <Link to ="/write">Post</Link>
+         <Link to ="/write">Write</Link>
     </Nav>
   </section>
     )

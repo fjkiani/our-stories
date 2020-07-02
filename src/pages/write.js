@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import styles from "../css/newsLetter.css"
-import NavBar from "../components/NavBar"
+
  
 
 
@@ -11,7 +11,7 @@ const Write = () => {
       <Layout>
         <section className="newsletter-page">
         <div className="page-center">
-          <h2>Get all the latest stories to your inbox</h2>
+          <h2>We would love to have your story featured on Our-Stories!</h2>
           <h4>I write to my friends every few weeks</h4>
           <form
             className="contact-form"
@@ -29,15 +29,26 @@ const Write = () => {
               name="name"
               placeholder="Your name"
               className="form-control "
+              required
             />
             <input
               type="email"
               name="email"
               className="form-control"
               placeholder="Your email"
+              required
+
+            />
+              <input
+              type="text"
+              name="email"
+              className="form-control"
+              placeholder="Title of your story"
+              required
+
             />
             <button type="submit" className="btn form-control submit-btn">
-              subscribe
+              contact
             </button>
           </form>
         </div>
