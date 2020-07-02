@@ -29,7 +29,6 @@ const Write = () => {
               name="name"
               placeholder="Your name"
               className="form-control "
-              required
             />
             <input
               type="email"
