@@ -12,7 +12,7 @@ const Write = () => {
         <section className="newsletter-page">
         <div className="page-center">
           <h2>We would love to have your story featured on Our-Stories!</h2>
-          <h4>I write to my friends every few weeks</h4>
+          <h4>Feel free to include details below and we will reach out</h4>
           <form
             className="contact-form"
             name="contact"
